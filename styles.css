@@ -1,29 +1,43 @@
+/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    margin: 0;
+    line-height: 1.6;
 }
 
 header {
-    background: #007bff;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
+    background-color: #007bff; /* 背景颜色 */
+    color: white; /* 字体颜色 */
+    padding: 10px 0; /* 上下内边距 */
+    text-align: center; /* 居中 */
 }
 
-h1, h2, h3 {
-    margin: 16px 0;
+nav ul {
+    list-style: none; /* 去掉默认列表样式 */
+    padding: 0; /* 去掉内边距 */
 }
 
-button {
-    background-color: #28a745;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
+nav ul li {
+    display: inline; /* 以内联方式展示 */
+    margin: 0 15px; /* 左右外边距 */
 }
 
-.button {
-    background-color: #007bff;
-    color: white;
+nav ul li a {
+    color: white; /* 链接颜色 */
+    text-decoration: none; /* 去掉链接下划线 */
+}
+
+section {
+    padding: 20px; /* 内边距 */
+}
+
+.service {
+    margin: 20px 0; /* 上下外边距 */
+}
+
+footer {
+    text-align: center; /* 居中 */
+    padding: 10px 0; /* 上下内边距 */
+    background-color: #f1f1f1; /* 背景颜色 */
 }
