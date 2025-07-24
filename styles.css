@@ -9,7 +9,7 @@ body {
 header {
     background-color: #007bff; /* 背景颜色 */
     color: white; /* 字体颜色 */
-    padding: 10px 0; /* 上下内边距 */
+    padding: 20px 0; /* 上下内边距 */
     text-align: center; /* 居中 */
 }
 
@@ -26,6 +26,20 @@ nav ul li {
 nav ul li a {
     color: white; /* 链接颜色 */
     text-decoration: none; /* 去掉链接下划线 */
+}
+
+section {
+    padding: 20px; /* 内边距 */
+}
+
+.service {
+    margin: 20px 0; /* 上下外边距 */
+}
+
+footer {
+    text-align: center; /* 居中 */
+    padding: 10px 0; /* 上下内边距 */
+    background-color: #f1f1f1; /* 背景颜色 */
 }
 
 section {
